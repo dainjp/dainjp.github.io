@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="card mb-3">
+  <div class="card-body">
+    <details open>
+      <summary style="cursor: pointer; font-size: 1.1rem; font-weight: bold">
+        📚 TODOs (펼치기/접기)
+      </summary>
+      <div style="margin-top: 10px">
+        {% capture study_list %} {% include_relative study-plan.md %} {%
+        endcapture %} {{ study_list | markdownify }}
+      </div>
+    </details>
+  </div>
+</div>
+{% for post in paginator.posts %}
+<div class="card mb-3"></div>
+{% endfor %}
