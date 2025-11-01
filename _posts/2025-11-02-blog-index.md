@@ -5,7 +5,6 @@ description: >-
 date: 2025-11-02 00:03:05 +0900
 categories: [Blog, Index]
 tags: [index, blog, 목록]
-author: 
 pin: true
 ---
 
@@ -53,7 +52,7 @@ pin: true
 
 ## 🧪 테스트 포스트 (Test Posts)
 
-- [나의 첫 테스트 포스트](/posts/나의-첫-테스트-포스트/)
+- [나의 첫 테스트 포스트]
 
 ---
 
