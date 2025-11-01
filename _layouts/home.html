@@ -9,8 +9,8 @@ layout: default
         📚 TODOs (펼치기/접기)
       </summary>
       <div style="margin-top: 10px">
-        {% capture study_list %} {% include_relative study-plan.md %} {%
-        endcapture %} {{ study_list | markdownify }}
+        {% capture study_list %} {% include study-plan.md %} {% endcapture %} {{
+        study_list | markdownify }}
       </div>
     </details>
   </div>
